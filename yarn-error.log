@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add --dev babel-jest @babel/core @babel/preset-env
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.11.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EINVAL: invalid argument, unlink '/Users/linlif/Documents/leetcode/node_modules/glob-parent/node_modules/is-glob'
+
+npm manifest: 
+  {
+    "name": "leetcode",
+    "version": "1.0.0",
+    "description": "javaScript数据结构和算法练习",
+    "private": true,
+    "scripts": {
+      "build": "webpack",
+      "test": "jest --watch"
+    },
+    "author": "linlif",
+    "license": "MIT",
+    "devDependencies": {
+      "@babel/core": "^7.4.4",
+      "@babel/preset-env": "^7.4.4",
+      "babel-jest": "^24.8.0",
+      "jest": "^19.0.2"
+    },
+    "dependencies": {
+      "webpack": "^4.31.0",
+      "webpack-cli": "^3.3.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
