@@ -4,7 +4,7 @@
     "description": "leetcode",
     "main": "index.js",
     "scripts": {
-      "test": "jest --sswatch"
+      "test": "jest --watch"
     },
     "repository": {
       "type": "git",
